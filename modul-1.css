@@ -1,0 +1,59 @@
+/* Reset dasar */
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #B0C4DE;
+    color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.kartu-profil {  
+    background-color: #87CEFA;
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid #FFFAFA;
+}
+
+h1 {
+    font-size: 28px;
+    color: #5F9EA0; /* Biru muda */
+    margin-bottom: 6px;
+}
+
+.tagline {
+    color: #94a3b8;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #5F9EA0;
+    margin: 20px 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.kontak {
+    margin-top: 24px;
+    padding: 12px;
+    background: #5F9EA0;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #87CEFA;
+}
